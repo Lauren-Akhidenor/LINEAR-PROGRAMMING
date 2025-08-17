@@ -2,7 +2,7 @@
 
 *This project demonstrates practical applications of Linear Programming (LP) in optimizing agricultural and food production decisions, including nutrient-cost optimization, production scheduling, and machine allocation for small-scale processing plants.*
 
-[![📊 Linear Programming Optimization ⚙️](https://img.shields.io/badge/GitHub-📊_Linear_Programming_⚙️-green?logo=github&labelColor=darkgreen)](https://github.com/Lauren-Akhidenor)
+[![📊 Linear Programming Optimization ⚙️](https://img.shields.io/badge/GitHub-📊_Linear_Programming_⚙️-green?logo=github&labelColor=darkgreen)](https://github.com/Lauren-Akhidenor/LINEAR-PROGRAMMING/edit/main/README.md)
 
 ---
 
@@ -110,6 +110,27 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 - Production scheduling can **maximize profit** under resource constraints.  
 - Machine allocation analysis ensures **optimal usage of limited processing capacity**.  
 - These methods can be applied in **agriculture, food processing, and small-scale industry planning**.
+
+---
+
+
+## 📊 Graphics & Visualizations
+
+### Worksheet 1: Nutrient-Cost Optimization
+<details>
+<summary>Click to expand Nutrient-Cost Charts</summary>
+<img src="images/nutrient_cost_bar_chart.png" width="700">
+<img src="images/nutrient_cost_line_chart.png" width="700">
+</details>
+
+
+### Worksheet 3: Machine Allocation
+<details>
+<summary>Click to expand Machine Allocation Charts</summary>
+<img src="images/machine_allocation_chart.png" width="700">
+
+</details>
+
 
 ---
 
