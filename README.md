@@ -31,7 +31,7 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 
 ---
 
-## 📝 Problem Worksheets
+## 📝 Worksheets
 
 ### Worksheet 1: Nutrient-Cost Optimization
 | Nutrient / Cost | Grain 1 | Grain 2 | Grain 3 | Minimum Requirement | Minimum Achieved |
