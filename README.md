@@ -119,15 +119,17 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 ### Worksheet 1: Nutrient-Cost Optimization
 <details>
 <summary>Click to expand Nutrient-Cost Charts</summary>
-<img src="images/nutrient_cost_bar_chart.png" width="700">
-<img src="images/nutrient_cost_line_chart.png" width="700">
-</details>
 
+<img src="Screenshot (961).png" width="700">
+<img src="Screenshot (962).png" width="700">
+
+</details>
 
 ### Worksheet 3: Machine Allocation
 <details>
 <summary>Click to expand Machine Allocation Charts</summary>
-<img src="images/machine_allocation_chart.png" width="700">
+
+<img src="Screenshot (964).png" width="700">
 
 </details>
 
