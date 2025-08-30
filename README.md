@@ -1,4 +1,4 @@
-# 🟢 Linear Programming Applications in Agricultural and Food Production
+# Linear Programming Applications in Agricultural and Food Production
 
 *This project demonstrates practical applications of Linear Programming (LP) in optimizing agricultural and food production decisions, including nutrient-cost optimization, production scheduling, and machine allocation for small-scale processing plants.*
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 Linear Programming is a mathematical method for determining the best possible outcome (such as maximum profit or minimum cost) in a given model with **constraints**. This project explores three LP scenarios:
 
 1. **Nutrient-Cost Optimization:** Determine the optimal mix of grains to meet nutrient requirements at minimum cost.  
@@ -31,7 +31,7 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 
 ---
 
-## 📝 Worksheets
+## Worksheets
 
 ### Worksheet 1: Nutrient-Cost Optimization
 | Nutrient / Cost | Grain 1 | Grain 2 | Grain 3 | Minimum Requirement | Minimum Achieved |
@@ -84,7 +84,7 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 
 ---
 
-## 🛠️ Methods
+## Methods
 - **LP Modeling:** Formulate objective functions, constraints, and decision variables for each problem.  
 - **Solver / Optimization:** Excel Solver was used for all three worksheets to find the **optimal solution**.  
 - **Validation:** Ensure constraints are satisfied while maximizing/minimizing objectives.
@@ -97,7 +97,7 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 
 ---
 
-## 📊 Results & Metrics
+## Results & Metrics
 
 - **Worksheet 1:** Optimal grain mix meets all nutrient requirements at a **minimum total cost of ₦148.61/kg**.  
 - **Worksheet 2:** Optimal production scheduling maximizes profit while using available machine time efficiently.  
@@ -105,7 +105,7 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 
 ---
 
-## 🔍 Insights
+## Insights
 - LP enables **cost-efficient nutrition planning** using multiple grain types.  
 - Production scheduling can **maximize profit** under resource constraints.  
 - Machine allocation analysis ensures **optimal usage of limited processing capacity**.  
@@ -114,7 +114,7 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 ---
 
 
-## 📊 Graphics & Visualizations
+## Graphics & Visualizations
 
 ### Worksheet 1: Nutrient-Cost Optimization
 <details>
