@@ -1,39 +1,51 @@
 # Linear Programming Applications in Agricultural and Food Production
 
-*This project demonstrates practical applications of Linear Programming (LP) in optimizing agricultural and food production decisions, including nutrient-cost optimization, production scheduling, and machine allocation for small-scale processing plants.*
+*This project demonstrates the use of Linear Programming (LP) to optimise agricultural and food production decisions, including nutrient-cost optimisation, production scheduling, and machine allocation for small-scale processing, with implications for efficiency, profitability, and sustainable resource management.*
 
-[![📊 Linear Programming Optimization ⚙️](https://img.shields.io/badge/GitHub-📊_Linear_Programming_⚙️-green?logo=github&labelColor=darkgreen)](https://github.com/Lauren-Akhidenor/LINEAR-PROGRAMMING/edit/main/README.md)
+[![📊 Linear Programming Optimisation ⚙️](https://img.shields.io/badge/GitHub-📊_Linear_Programming_⚙️-F5F5DC?logo=github&logoColor=white&labelColor=800020)](https://github.com/Lauren-Akhidenor/LINEAR-PROGRAMMING/edit/main/README.md)
 
 ---
 
 ## 📑 Table of Contents
-1. [Project Overview](#-project-overview)
-2. [Problem Worksheets](#-problem-worksheets)
-   - [Worksheet 1: Nutrient-Cost Optimization](#worksheet-1-nutrient-cost-optimization)
+1. [Project Overview](#project-overview)
+2. [Economic & Analytical Methodology](#economic--analytical-methodology)
+3. [Problem Worksheets](#problem-worksheets)
+   - [Worksheet 1: Nutrient-Cost Optimisation](#worksheet-1-nutrient-cost-optimisation)
    - [Worksheet 2: Production Scheduling](#worksheet-2-production-scheduling)
    - [Worksheet 3: Machine Allocation](#worksheet-3-machine-allocation)
-3. [Methods](#-methods)
-4. [Results & Metrics](#-results--metrics)
-5. [Insights](#-insights)
-6. [How to Run](#-how-to-run)
-7. [Contributing](#-contributing)
+4. [Results & Metrics](#results--metrics)
+5. [Insights & Implications](#insights--implications)
+
 
 ---
 
 ## Project Overview
-Linear Programming is a mathematical method for determining the best possible outcome (such as maximum profit or minimum cost) in a given model with **constraints**. This project explores three LP scenarios:
+Linear Programming is a mathematical optimisation tool used to determine the **best possible outcome** under a set of constraints, such as maximising profit or minimising cost. This project explores three LP applications in agricultural and food production:
 
-1. **Nutrient-Cost Optimization:** Determine the optimal mix of grains to meet nutrient requirements at minimum cost.  
-2. **Production Scheduling:** Allocate machine time to maximize profit from Maize Flour and Yam Flour production.  
-3. **Machine Allocation:** Evaluate feasible allocations for machine usage to meet production targets while adhering to capacity constraints.
+1. **Nutrient-Cost Optimisation:** Identify the cost-minimising combination of grains to meet daily nutrient requirements.  
+2. **Production Scheduling:** Allocate machine time to maximise profit from Maize Flour and Yam Flour production.  
+3. **Machine Allocation:** Optimise machine usage to meet production targets whilst respecting capacity constraints.  
 
-Data is provided in spreadsheets, and solutions are obtained using **Excel Solver / LP optimization tools**.
+The solutions provide **evidence-based insights** for farm-level decision-making and small-scale food processing efficiency.
 
 ---
 
-## Worksheets
+## Economic & Analytical Methodology
+This project applies **quantitative optimisation and economic evaluation principles** to agricultural production:
 
-### Worksheet 1: Nutrient-Cost Optimization
+- **Linear Programming (LP):** Formulate objective functions (cost or profit) and constraints (nutrient requirements, machine capacity, production limits).  
+- **Decision Variables:** Quantities of grains or units of products to produce.  
+- **Solver Optimisation:** Excel Solver identifies the optimal solution that satisfies all constraints.  
+- **Economic Metrics:** Total cost, total profit, and efficiency ratios are analysed to support **resource allocation and policy decisions**.  
+- **Validation:** Ensure all constraints are satisfied whilst achieving maximum economic efficiency.
+
+This approach enables **data-driven recommendations** for cost reduction, productivity enhancement, and sustainable resource use in agricultural systems.
+
+---
+
+## Problem Worksheets
+
+### Worksheet 1: Nutrient-Cost Optimisation
 | Nutrient / Cost | Grain 1 | Grain 2 | Grain 3 | Minimum Requirement | Minimum Achieved |
 |-----------------|--------|--------|--------|------------------|----------------|
 | Nutrient A      | 20     | 30     | 70     | 110              | 110            |
@@ -42,9 +54,9 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 | Nutrient D      | 6      | 2.5    | 10     | 14               | 14             |
 | Cost (₦/Kg)    | 41     | 36     | 96     |                  | 148.61         |
 
-- **Decision Variables:** Quantity of each grain to meet nutrient requirements.  
-- **Objective Function:** Minimize total cost.  
-- **Constraints:** Minimum nutrient requirements per nutrient type.  
+- **Decision Variables:** Quantities of each grain.  
+- **Objective Function:** Minimise total cost whilst meeting nutrient requirements.  
+- **Constraints:** Minimum required nutrient levels per nutrient type.  
 
 ---
 
@@ -60,12 +72,12 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 | Available Machine II  | 360        |           | Maximum capacity |
 | Total Profit          | 270        |           | Profit formula |
 
-- **Objective Function:** Maximize profit.  
-- **Constraints:** Machine time limitations (Machine I and II).  
+- **Objective Function:** Maximise profit.  
+- **Constraints:** Machine capacity and production requirements.  
 
 ---
 
-### Worksheet 3: Machine Allocation for Maize and Yam Flour
+### Worksheet 3: Machine Allocation
 | Maize Flour (x_M) | Yam Flour (Machine I) | Yam Flour (Machine II) |
 |------------------|---------------------|----------------------|
 | 0                | 150                 | 90                   |
@@ -80,64 +92,47 @@ Data is provided in spreadsheets, and solutions are obtained using **Excel Solve
 | 90               | 15                  | 45                   |
 | 100              | 0                   | 40                   |
 
-- **Purpose:** Evaluate feasible allocations and identify the optimal production mix under machine constraints.  
+- **Purpose:** Identify optimal production mix whilst meeting machine constraints.  
 
----
+----
 
-## Methods
-- **LP Modeling:** Formulate objective functions, constraints, and decision variables for each problem.  
-- **Solver / Optimization:** Excel Solver was used for all three worksheets to find the **optimal solution**.  
-- **Validation:** Ensure constraints are satisfied while maximizing/minimizing objectives.
+## Graphics & Visualisations
 
-**Formulas used for LP:**
-- Total Cost = Σ (Cost per unit × Quantity of each grain)  
-- Total Profit = Σ (Profit per unit × Quantity produced)  
-- Constraints: Σ (Nutrient contribution × Quantity) ≥ Minimum Requirement  
-- Machine time: Σ (Machine usage per product × Quantity) ≤ Machine availability  
-
----
-
-## Results & Metrics
-
-- **Worksheet 1:** Optimal grain mix meets all nutrient requirements at a **minimum total cost of ₦148.61/kg**.  
-- **Worksheet 2:** Optimal production scheduling maximizes profit while using available machine time efficiently.  
-- **Worksheet 3:** Feasible machine allocations determined for different production levels to maintain operational efficiency.  
-
----
-
-## Insights
-- LP enables **cost-efficient nutrition planning** using multiple grain types.  
-- Production scheduling can **maximize profit** under resource constraints.  
-- Machine allocation analysis ensures **optimal usage of limited processing capacity**.  
-- These methods can be applied in **agriculture, food processing, and small-scale industry planning**.
-
----
-
-
-## Graphics & Visualizations
-
-### Worksheet 1: Nutrient-Cost Optimization
+### Worksheet 1: Nutrient-Cost Optimisation
 <details>
 <summary>Click to expand Nutrient-Cost Charts</summary>
-
 <img src="Screenshot (961).png" width="700">
-<img src="Screenshot (962).png" width="700">
+</details>
 
+### Worksheet 2: Maximised Profit
+<details>
+<summary>Click to expand Nutrient-Cost Charts</summary>
+<img src="Screenshot (962).png" width="700">
 </details>
 
 ### Worksheet 3: Machine Allocation
 <details>
 <summary>Click to expand Machine Allocation Charts</summary>
-
 <img src="Screenshot (964).png" width="700">
-
 </details>
-
 
 ---
 
-## 🚀 How to Run
-```bash
-git clone https://github.com/Lauren-Akhidenor/LP-Projects.git
-cd LP-Projects
-# Open the Excel sheets and use Solver to replicate results
+## Results & Metrics
+- **Worksheet 1:** Achieved minimum total cost (₦148.61/kg) whilst meeting all nutrient requirements.  
+- **Worksheet 2:** Maximised profit under available machine time.  
+- **Worksheet 3:** Determined feasible allocations to optimise production efficiency.  
+- **Analytical Impact:** Quantified trade-offs between cost minimisation and production capacity, informing resource allocation decisions.
+
+---
+
+## Insights & Implications
+- LP provides **cost-efficient, data-driven decision-making** for nutrition planning and production scheduling.  
+- Resource allocation analysis ensures **optimal use of limited farm and processing inputs**.  
+- Methods can guide **policy recommendations** for smallholder farming efficiency and sustainable agri-business planning.  
+- Demonstrates how **quantitative modelling and economic evaluation** can drive actionable insights in agricultural systems.
+
+----
+
+---
+
