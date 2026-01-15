@@ -14,7 +14,9 @@
    - [Worksheet 2: Production Scheduling](#worksheet-2-production-scheduling)
    - [Worksheet 3: Machine Allocation](#worksheet-3-machine-allocation)
 4. [Results & Metrics](#results--metrics)
-5. [Insights & Implications](#insights--implications)
+5. [Critical Practical Applications](Critical-Practical-Applications)
+6. [Insights & Implications](#insights--implications)
+7. [Summary](Summary)
 
 
 ---
@@ -126,11 +128,38 @@ This approach enables **data-driven recommendations** for cost reduction, produc
 
 ---
 
+
+## Critical Practical Applications
+
+### For Feed Millers & Livestock Farmers
+- LP eliminates guesswork in ration formulation  
+- **Nutrient B achieved 26.03 vs 18 minimum** (44% surplus), opportunity to reduce feed costs further  
+- Re-optimize formulations whenever grain prices change  
+
+### For Small-Scale Processors
+- Both machines operating at 100% capacity are **binding constraints**  
+- **Investment priority:** expand Machine I or II based on sensitivity analysis  
+- **60:60 Maize:Yam ratio** maximizes current equipment efficiency  
+
+### For Extension & Training
+- **Excel Solver is free and accessible**, offering a low barrier to adoption  
+- **Visual trade-off curves (Worksheet 3)** help farmers intuitively understand optimization  
+- Templates can be localised for different crops or products  
+
+---
+
 ## Insights & Implications
 - LP provides **cost-efficient, data-driven decision-making** for nutrition planning and production scheduling.  
 - Resource allocation analysis ensures **optimal use of limited farm and processing inputs**.  
 - Methods can guide **policy recommendations** for smallholder farming efficiency and sustainable agri-business planning.  
 - Demonstrates how **quantitative modelling and economic evaluation** can drive actionable insights in agricultural systems.
+
+
+---
+
+**Summary:**  
+LP optimization provides actionable guidance for **cost-efficient feed formulation, profit-maximizing production schedules, and effective machine allocation**. These insights support smallholders, processors, and extension services to make data-driven operational decisions.
+
 
 ----
 
