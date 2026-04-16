@@ -1,4 +1,4 @@
-# Linear Programming Applications in Agricultural and Food Production
+# Optimising Agricultural Production Systems Using Linear Programming (Feed, Profit & Capacity Allocation)
 
 *This project applies Linear Programming (LP) to real-world agricultural and agro-processing decisions, including feed formulation, production scheduling, and machine allocation. It demonstrates how constrained optimisation improves cost efficiency, profitability, and resource utilisation in small-scale food systems.*
 
